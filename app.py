@@ -42,7 +42,7 @@ def login():
           session['id'] = output[0]
           session['loggedintime'] = current_time.strftime("%d/%m/%Y %H:%M:%S")
 
-          print(session)
+         
 
           return redirect(url_for('employeesearch'))
 
